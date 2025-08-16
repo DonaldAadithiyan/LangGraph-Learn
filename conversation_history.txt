@@ -1,0 +1,10 @@
+User: hi
+AI: Hello! How can I assist you today?
+User: hi
+AI: Hi again! How can I help you?
+User: mu name is Donald
+AI: Nice to meet you, Donald! How can I assist you today?
+User: what is my name 
+AI: Your name is Donald. How can I assist you further, Donald?
+
+End of conversation.
