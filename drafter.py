@@ -67,7 +67,6 @@ def model_call(state: AgentState) -> AgentState:
         user_message = HumanMessage(content=user_input)
 
     all_messages = [system_prompt] + state['messages'] + [user_message]
-    print(f"All messages: {all_messages}")
 
     response = model.invoke(all_messages)
     print(f"\n🤖 AI: {response.content}")
