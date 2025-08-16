@@ -42,7 +42,7 @@ except Exception as e:
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,
     chunk_overlap=200
-)
+) 
 
 pages = text_splitter.split_documents(pages)
 
@@ -74,7 +74,7 @@ retriever = vectorstore.as_retriever(
 @tool
 def retriever_tool(query: str) -> str:
     """
-    This tool searches and returns the information from the Stock Market Performance 2024 document.
+    This tool searches and returns the information from Proposal document.
     """
 
     docs = retriever.invoke(query)
